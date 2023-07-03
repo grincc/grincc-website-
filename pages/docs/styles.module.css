@@ -19,9 +19,11 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Update to align text to the left */
+  align-items: center;
   gap: 20px;
   text-align: center;
+  width: 100%;
+  max-width: 800px;
 }
 
 .paragraph {
