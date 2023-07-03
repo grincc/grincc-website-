@@ -54,4 +54,7 @@ export default function ApprovalScheme() {
                     <strong>CC</strong> = GRIN community council <br />
                     <strong>PR</strong> = pull request
                 </p>
-            </
+            </div>
+        </div>
+    )
+}
