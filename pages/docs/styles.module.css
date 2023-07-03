@@ -39,3 +39,7 @@
 .table {
     width: 100%; /* The width should match the width of the paragraph */
 }
+
+.narrow-column {
+    width: auto;
+}
