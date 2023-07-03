@@ -9,10 +9,11 @@
 
 .my-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* This makes sure your content is centered vertically, too */
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
 }
 
 .header-1 {
