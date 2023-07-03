@@ -18,9 +18,9 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start; /* Update to align text to the left */
   gap: 20px;
-  text-align: center; /* Add this line to center-align text within paragraphs */
+  text-align: center;
 }
 
 .paragraph {
@@ -41,5 +41,3 @@
 .border-frame th {
   border: 1px solid green;
 }
-
-
