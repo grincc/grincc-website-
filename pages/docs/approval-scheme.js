@@ -1,4 +1,4 @@
-import './styles.css';  // Path to your CSS file
+import styles from './styles.module.css'  // Path to your CSS file
 
 import Link from 'next/link'
 
