@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import './styles.css';
+import './styles.css';  // Path to your CSS file
 
+import Link from 'next/link'
 
 export default function ApprovalScheme() {
     return (
