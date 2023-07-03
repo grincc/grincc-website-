@@ -11,7 +11,6 @@
 .header-1 {
   margin-top: 25px;
   margin-bottom: 50px;
-  font-size: 3em;
   font-weight: bold;
   color: var(--text-color);
 }
@@ -21,18 +20,17 @@
   flex-direction: column;
   align-items: flex-start; /* Update to align text to the left */
   gap: 20px;
-  font-size: 1.2em;
   text-align: center;
 }
 
 .paragraph {
   width: 100%;
   text-align: start;
-  font-size: 1.2em;
 }
 
 .table {
   table-layout: auto;
+  font-size: 1.2em;
   width: max-content;
 }
 
