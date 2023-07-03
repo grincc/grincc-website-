@@ -6,3 +6,11 @@
 .border-frame th {
     border: 1px solid green;
 }
+
+.my-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes sure your content is centered vertically, too */
+    flex-direction: column;
+}
