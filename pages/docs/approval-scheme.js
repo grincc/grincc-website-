@@ -1,4 +1,5 @@
 import styles from './styles.module.css'  // Path to your CSS file
+import styles from './styles.module.scss'
 
 import Link from 'next/link'
 
