@@ -1,6 +1,10 @@
 import styles from './styles.module.css'  
 import Link from 'next/link'
 
+.header-1 {
+    margin-top: 50px;  /* Adjust the value to what suits your design */
+}
+
 export default function ApprovalScheme() {
     return (
         <div className={styles["my-container"]}>
