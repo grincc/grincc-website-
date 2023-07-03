@@ -42,3 +42,8 @@
 .border-frame th {
   border: 1px solid black;
 }
+
+.dark {
+  background-color: var(--dark-background); /* Add dark background color variable */
+  color: var(--dark-text-color); /* Add dark text color variable */
+}
