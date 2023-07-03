@@ -37,7 +37,8 @@
 }
 
 .table {
-    width: 100%; /* The width should match the width of the paragraph */
+    table-layout: auto;
+    width: max-content;
 }
 
 .narrow-column {
