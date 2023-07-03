@@ -1,7 +1,7 @@
 import styles from './styles.module.css'  
 import Link from 'next/link'
 
-export default function ApprovalScheme() {
+export default function Home() {
     return (
         <div className={styles["my-container"]}>
             <h1 className={styles["header-1"]} >Approval Scheme</h1>
