@@ -15,34 +15,34 @@ export default function ApprovalScheme() {
                     <thead>
                         <tr>
                             <th>Repository</th>
-                            <th className={styles["narrow-column"]}>Required members of <strong>CC</strong> for PR</th>
+                            <th style={{width: '1%'}}>Required members of <strong>CC</strong> for PR</th>
                             <th>notes</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><Link href="https://github.com/grincc/agenda"><a>agenda</a></Link></td>
-                            <td className={`${styles["text-center"]} ${styles["narrow-column"]}`}>1</td>
+                            <td className={styles["text-center"]}>1</td>
                             <td>CC meeting notes, etc</td>
                         </tr>
                         <tr>
                             <td><Link href="https://github.com/grincc/hub"><a>hub</a></Link></td>
-                            <td className={`${styles["text-center"]} ${styles["narrow-column"]}`}>1</td>
+                            <td className={styles["text-center"]}>1</td>
                             <td>code, tools, sites, memes, marketing, art</td>
                         </tr>
                         <tr>
                             <td><Link href="https://github.com/grincc/security"><a>security</a></Link></td>
-                            <td className={`${styles["text-center"]} ${styles["narrow-column"]}`}>4</td>
+                            <td className={styles["text-center"]}>4</td>
                             <td>signing, verifying</td>
                         </tr>
                         <tr>
                             <td><Link href="https://github.com/grincc/finance"><a>finance</a></Link></td>
-                            <td className={`${styles["text-center"]} ${styles["narrow-column"]}`}>4</td>
+                            <td className={styles["text-center"]}>4</td>
                             <td>public CC fund documentation</td>
                         </tr>
                         <tr>
                             <td><Link href="https://github.com/grincc/docs"><a>docs</a></Link></td>
-                            <td className={`${styles["text-center"]} ${styles["narrow-column"]}`}>2</td>
+                            <td className={styles["text-center"]}>2</td>
                             <td>CC related documents</td>
                         </tr>
                     </tbody>
