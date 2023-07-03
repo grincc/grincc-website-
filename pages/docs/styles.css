@@ -1,8 +1,8 @@
 .border-frame {
-    border: 1px solid green;
+    border: 10px solid green;
 }
 
 .border-frame td,
 .border-frame th {
-    border: 1px solid green;
+    border: 10px solid green;
 }
