@@ -14,3 +14,9 @@
     height: 100vh; /* This makes sure your content is centered vertically, too */
     flex-direction: column;
 }
+
+.header-1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
