@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import '../styles/styles.css';
 
 export default function ApprovalScheme() {
     return (
@@ -8,16 +9,6 @@ export default function ApprovalScheme() {
             <p>
                 As all members of the GRIN community council all have owner roles on this repository, the following rules for approvals of pull-requests(PR) are suggested:
             </p>
-
-                .border-frame {
-    border: 1px solid green;
-}
-
-.border-frame td,
-.border-frame th {
-    border: 1px solid green;
-}
-
 
             <table className="table border-green-200 mt-8 mx-auto dark:bg-black border-frame">
     <thead>
