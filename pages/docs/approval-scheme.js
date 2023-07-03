@@ -11,7 +11,7 @@ export default function ApprovalScheme() {
                     As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, the following rules for approvals of pull-requests(PR) are suggested:
                 </p>
 
-                <table className={`${styles.table} ${styles["border-green-200"]} ${styles["mt-8"]} ${styles.dark} ${styles["bg-black"]} ${styles["border-frame"]}`}>
+                <table className={`${styles.table} ${styles["border-green-200"]} ${styles["mt-8"]} ${styles["mx-auto"]} ${styles.dark} ${styles["bg-black"]} ${styles["border-frame"]}`}>
                     <thead>
                         <tr>
                             <th>Repository</th>
@@ -54,4 +54,7 @@ export default function ApprovalScheme() {
                     <strong>CC</strong> = GRIN community council <br />
                     <strong>PR</strong> = pull request
                 </p>
-            </
+            </div>
+        </div>
+    )
+}
