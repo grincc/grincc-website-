@@ -8,14 +8,14 @@ export default function ApprovalScheme() {
 
             <div className={styles.wrapper}>
                 <p className={styles.paragraph}>
-                    As all members of the GRIN community council all have owner roles on this repository, the following rules for approvals of pull-requests(PR) are suggested:
+                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, the following rules for approvals of pull-requests(PR) are suggested:
                 </p>
 
                 <table className={`${styles.table} ${styles["border-green-200"]} ${styles["mt-8"]} ${styles["mx-auto"]} ${styles.dark} ${styles["bg-black"]} ${styles["border-frame"]}`}>
                     <thead>
                         <tr>
                             <th>Repository</th>
-                            <th>Required members of CC for PR****</th>
+                            <th>Required members of <strong>CC</strong> for PR</th>
                             <th>notes</th>
                         </tr>
                     </thead>
@@ -47,6 +47,13 @@ export default function ApprovalScheme() {
                         </tr>
                     </tbody>
                 </table>
+
+                <p className={styles.paragraph}>
+                    Otherwise, anyone of us could approve something without the consent of the other members. The <strong>CC</strong> member who submits the <strong>PR</strong> is included in the count of required members to approve PR's.
+                    <br /><br />
+                    <strong>CC</strong> = GRIN community council <br />
+                    <strong>PR</strong> = pull request
+                </p>
             </div>
         </div>
     )
