@@ -11,7 +11,8 @@ export default function Home() {
 
             <div className={styles.content}>
                 <p className={styles.paragraph}>
-                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, the following rules for approvals of pull-requests(PR) are suggested:
+                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, 
+    the following rules for approvals of pull-requests(PR) are suggested:
                 </p>
 
                 <table className={`${styles.table} ${styles["border-green-200"]} ${styles["mt-8"]} ${styles.dark} ${styles["bg-black"]} ${styles["border-frame"]}`} cellPadding="10">
