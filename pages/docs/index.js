@@ -21,6 +21,11 @@ export default function Home() {
                         <a className="header-2">Spending Guidelines </a>
                     </Link>
                 </li>
+         <li>
+                 <Link href="/docs/test">
+                        <a className="header-2">test </a>
+                    </Link>
+                </li>
             </ul>
         </section>
     )
