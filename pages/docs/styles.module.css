@@ -23,3 +23,11 @@
     font-weight: bold;
     color: #333;
 }
+
+.paragraph {
+    margin-left: 20px;  /* Adjust the value to what suits your design */
+}
+
+.table {
+    margin-left: 20px;  /* Adjust the value to what suits your design */
+}
