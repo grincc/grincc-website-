@@ -11,8 +11,7 @@ export default function Home() {
 
             <div className={styles.content}>
                 <p className={styles.paragraph}>
-                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository,<br /> 
-    the following rules for approvals of pull-requests(PR) are suggested:
+                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, the<br /> following rules for approvals of pull-requests(PR) are suggested:
                 </p>
 
                 <table className={`${styles.table} ${styles["border-green-200"]} ${styles["mt-8"]} ${styles.dark} ${styles["bg-black"]} ${styles["border-frame"]}`} cellPadding="10">
@@ -53,7 +52,7 @@ export default function Home() {
                 </table>
 
                 <p className={styles.paragraph}>
-                    Otherwise, anyone of us could approve something without the consent of the other members. The <strong>CC</strong> member who submits the <strong>PR</strong> is included in the count of required members to approve PR's.
+                    Otherwise, anyone of us could approve something without the consent of the other members.<br /> The <strong>CC</strong> member who submits the <strong>PR</strong> is included in the count of required members to approve PR's.
                     <br /><br />
                     <strong>CC</strong> = GRIN community council <br />
                     <strong>PR</strong> = pull request
