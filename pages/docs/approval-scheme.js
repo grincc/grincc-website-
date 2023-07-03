@@ -3,6 +3,9 @@ import Link from 'next/link'
 
 export default function Home() {
     return (
+
+        <div className="my-container ">
+        
         <div className={styles["my-container"]}>
             <h1 className={styles["header-1"]} >Approval Scheme</h1>
 
@@ -57,5 +60,6 @@ export default function Home() {
     
             </div>
         </div>
+</div>
     )
 }
