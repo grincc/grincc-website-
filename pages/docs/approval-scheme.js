@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="my-container" style={{ marginTop: '-50px' }}>
-      <h1 className={styles["header-1"]}>Approval Scheme</h1>
+    <div className="my-container">
+      <h1 className={styles["header-1"]} >Approval Scheme</h1>
 
       <div className={styles.content}>
         <p className={styles.paragraph}>
@@ -58,5 +58,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
