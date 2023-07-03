@@ -11,7 +11,7 @@ export default function Home() {
 
             <div className={styles.content}>
                 <p className={styles.paragraph}>
-                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, 
+                    As all members of the <strong>GRIN community council</strong> all have owner roles on this repository,<br /> 
     the following rules for approvals of pull-requests(PR) are suggested:
                 </p>
 
