@@ -6,7 +6,7 @@ export default function ApprovalScheme() {
         <div className={styles["my-container"]}>
             <h1 className={styles["header-1"]} >Approval Scheme</h1>
 
-            <div className={styles.content}>
+            <div className={styles.wrapper}>
                 <p className={styles.paragraph}>
                     As all members of the <strong>GRIN community council</strong> all have owner roles on this repository, the following rules for approvals of pull-requests(PR) are suggested:
                 </p>
