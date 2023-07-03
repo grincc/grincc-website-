@@ -11,6 +11,7 @@
 .header-1 {
   margin-top: 25px;
   margin-bottom: 50px;
+  font-size: 2em;
   font-weight: bold;
   color: var(--text-color);
 }
@@ -30,7 +31,7 @@
 
 .table {
   table-layout: auto;
-  font-size: 1.2em;
+  font-size: 1em;
   width: max-content;
 }
 
