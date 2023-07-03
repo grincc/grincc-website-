@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Update to align items to the top */
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* Update to min-height to ensure content is at the top */
+  padding-top: 50px; /* Adjust the value to increase or decrease the space at the top */
 }
 
 .header-1 {
@@ -34,10 +35,10 @@
 }
 
 .border-frame {
-  border: 1px solid green;
+  border: 1px solid black;
 }
 
 .border-frame td,
 .border-frame th {
-  border: 1px solid green;
+  border: 1px solid black;
 }
