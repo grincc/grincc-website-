@@ -23,7 +23,7 @@ export default function ApprovalScheme() {
     <thead>
         <tr>
             <th>Repository</th>
-            <th>Required members of CC for PR</th>
+            <th>Required members of CC for PR****</th>
             <th>notes</th>
         </tr>
     </thead>
