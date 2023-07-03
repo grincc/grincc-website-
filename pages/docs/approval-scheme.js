@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import '../styles/styles.css';
+import './styles.css';
+
 
 export default function ApprovalScheme() {
     return (
