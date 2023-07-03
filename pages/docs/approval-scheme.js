@@ -15,7 +15,7 @@ export default function ApprovalScheme() {
                     <thead>
                         <tr>
                             <th>Repository</th>
-                            <th style={{width: '1%'}}>Required members of <strong>CC</strong> for PR</th>
+                            <th>Required members of <strong>CC</strong> for PR</th>
                             <th>notes</th>
                         </tr>
                     </thead>
