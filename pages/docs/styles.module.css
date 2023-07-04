@@ -57,7 +57,7 @@
 /* Responsive styles for mobile devices */
 @media screen and (max-width: 600px) {
   .header-1 {
-    font-size: 1.5em; /* Reduce font size for smaller screens */
+    font-size: 2em; /* Reduce font size for smaller screens */
   }
   
   .content {
@@ -69,6 +69,6 @@
   }
   
   .paragraph {
-    text-align: center; /* Align paragraph text to center on small screens */
+    text-align: start; /* Align paragraph text to the left on small screens */
   }
 }
