@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Update to align items to the top */
+  justify-content: flex-start; 
   width: 100%;
-  min-height: 100vh; /* Update to min-height to ensure content is at the top */
-  padding-top: 50px; /* Adjust the value to increase or decrease the space at the top */
+  min-height: 100vh; 
+  padding-top: 50px; 
 }
 
 .header-1 {
@@ -20,10 +20,14 @@
   background-color: #fef102;
 }
 
+.yellow-header th {
+  color: black; /* Ensure the text in the header is always black */
+}
+
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Update to align text to the left */
+  align-items: flex-start;
   gap: 20px;
   text-align: center;
 }
@@ -50,6 +54,31 @@
 }
 
 .dark {
-  background-color: var(--dark-background); /* Add dark background color variable */
-  color: var(--dark-text-color); /* Add dark text color variable */
+  background-color: var(--dark-background);
+  color: var(--dark-text-color);
 }
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 600px) {
+  .header-1 {
+    font-size: 1.5em; /* Reduce font size for smaller screens */
+  }
+  
+  .content {
+    text-align: left; /* Change text alignment on small screens */
+  }
+  
+  .table {
+    width: 100%; /* Make the table full width on small screens */
+  }
+  
+  .table td,
+  .table th {
+    text-align: center; /* Center text inside the table on small screens */
+  }
+  
+  .paragraph {
+    text-align: start; /* Align paragraph text to the left on small screens */
+  }
+}
+
