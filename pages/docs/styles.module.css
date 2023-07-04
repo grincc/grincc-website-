@@ -20,6 +20,10 @@
   background-color: #fef102;
 }
 
+.yellow-header th {
+  color: black; /* Ensure the text in the header is always black */
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -77,3 +81,4 @@
     text-align: start; /* Align paragraph text to the left on small screens */
   }
 }
+
