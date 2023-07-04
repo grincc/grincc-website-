@@ -57,7 +57,7 @@
 /* Responsive styles for mobile devices */
 @media screen and (max-width: 600px) {
   .header-1 {
-    font-size: 2em; /* Reduce font size for smaller screens */
+    font-size: 1.5em; /* Reduce font size for smaller screens */
   }
   
   .content {
@@ -66,6 +66,11 @@
   
   .table {
     width: 100%; /* Make the table full width on small screens */
+  }
+  
+  .table td,
+  .table th {
+    text-align: center; /* Center text inside the table on small screens */
   }
   
   .paragraph {
