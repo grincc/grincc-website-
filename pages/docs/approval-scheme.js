@@ -21,7 +21,7 @@ export default function Home() {
           </thead>
           <tbody>
             <tr>
-              <td><Link href="https://github.com/grincc/agenda"><a>agenda</a></Link></td>
+              <td><Link href="https://github.com/grincc/Agenda"><a>agenda</a></Link></td>
               <td className={styles["text-center"]}>1</td>
               <td>CC meeting notes, etc</td>
             </tr>
