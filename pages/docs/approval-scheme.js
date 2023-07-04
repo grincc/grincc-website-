@@ -12,7 +12,7 @@ export default function Home() {
         </p>
 
         <table className={`${styles.table} ${styles["border-green-200"]} ${styles["mt-8"]} ${styles.dark} ${styles["bg-black"]} ${styles["border-frame"]}`} cellPadding="10">
-          <thead className={styles.yellowHeader}>
+          <thead className={styles["yellow-header"]}>
             <tr>
               <th>Repository</th>
               <th>Required members of CC for PR</th>
