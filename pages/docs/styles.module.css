@@ -16,6 +16,10 @@
   color: var(--text-color);
 }
 
+.yellowHeader {
+  background-color: yellow;
+}
+
 .content {
   display: flex;
   flex-direction: column;
