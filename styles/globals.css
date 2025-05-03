@@ -33,6 +33,38 @@ p {
     @apply py-2;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: 0px;
+}
+
+.icon-label {
+  padding-left: 4px;
+  margin-bottom: 0px;
+  margin-right: 2px;
+}
+
+.icon-label span {
+  font-size: 0.7em;
+  color: #888;
+}
+
+.icon-class {
+  @apply w-6 h-6 rounded-full;
+}
+
+
+
 .my-container {
         @apply container px-6 py-24 mx-auto text-gray-600  dark:bg-black dark:text-gray-300;
 }
