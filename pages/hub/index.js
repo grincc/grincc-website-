@@ -603,6 +603,7 @@ export default function Hub() {
                             <a href="https://forum.grin.mw/t/solo-mining-private-pool-guide/10462" className="text-primary">https://forum.grin.mw/t/solo-mining-private-pool-guide/10462</a>
                         </p>
                     </li>
+
                 </ul>
             </div>
 

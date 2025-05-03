@@ -1,0 +1,84 @@
+.my-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  width: 100%;
+  min-height: 100vh; 
+  padding-top: 50px; 
+}
+
+.header-1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.yellow-header {
+  background-color: #fef102;
+}
+
+.yellow-header th {
+  color: black; /* Ensure the text in the header is always black */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+}
+
+.paragraph {
+  width: 100%;
+  text-align: start;
+}
+
+.table {
+  table-layout: auto;
+  font-size: 1em;
+  width: max-content;
+  padding: 10px;
+}
+
+.border-frame {
+  border: 1px solid black;
+}
+
+.border-frame td,
+.border-frame th {
+  border: 2px solid black;
+}
+
+.dark {
+  background-color: var(--dark-background);
+  color: var(--dark-text-color);
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 600px) {
+  .header-1 {
+    font-size: 1.5em; /* Reduce font size for smaller screens */
+  }
+  
+  .content {
+    text-align: left; /* Change text alignment on small screens */
+  }
+  
+  .table {
+    width: 100%; /* Make the table full width on small screens */
+  }
+  
+  .table td,
+  .table th {
+    text-align: center; /* Center text inside the table on small screens */
+  }
+  
+  .paragraph {
+    text-align: start; /* Align paragraph text to the left on small screens */
+  }
+}
+
