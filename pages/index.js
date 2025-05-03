@@ -1,27 +1,30 @@
 import React from 'react';
 import RightArrow from "../assets/icons/rightArrow";
 import Check from "../assets/icons/check";
-import Link from 'next/link'
+import Link from 'next/link';
 import UserIcon from "../assets/icons/userIcon";
-
+import { Icon3, Icon4, Icon5, Icon6, IconWrapper } from '../assets/icons/CCIcons'; 
 
 function Index(props) {
-   return (
-         <section className="text-gray-600 dark:bg-text-300 body-font">
-            <div className="my-container ">
-                <h1 className="header-1" >Grin Community Council</h1>
-                <p>Grin Community Council is <a className="text-primary" href="https://forum.grin.mw/t/call-for-grin-community-candidates-for-additional-fund-granting-control/8521/13">formed</a> from valued community members with remarkable contributions to Grin in 2021 May.
-                    Council's main task is to control and direct <i>Grin Community Fund </i> to support grin projects, bounties and community activities. Current council members are : </p>
+  return (
+    <section className="text-gray-600 dark:bg-text-300 body-font">
+      <div className="my-container">
+        <h1 className="header-1">Grin Community Council</h1>
+        <p>Grin Community Council is <a className="text-primary" href="https://forum.grin.mw/t/call-for-grin-community-candidates-for-additional-fund-granting-control/8521/13">formed</a> from valued community members with remarkable contributions to Grin in 2021 May.
+          Council's main task is to control and direct <i>Grin Community Fund </i> to support grin projects, bounties and community activities. Current council members are:</p>
 
-                <div className="py-4">
-
-                    <ul className="pl-4 pb-4">
-                        <li><UserIcon /> anynomous</li>
-                        <li><UserIcon /> mcmmike</li>
-                        <li><UserIcon /> future3000</li>
-                        <li><UserIcon /> mwgrin_fr</li>
-                    </ul>
-                </div>
+<div className="py-4">
+  <div className="icons-container">
+    <ul className="pl-4 pb-4" style={{ margin: '0px', padding: '0px' }}>
+      <IconWrapper IconComponent={Icon3} label="anynomous" />
+      <IconWrapper IconComponent={Icon4} label="mcmmike" />
+      <IconWrapper IconComponent={Icon5} label="future3000" />
+      <IconWrapper IconComponent={Icon6} label="mwgrin_fr" />
+      {/* other list items */}
+    </ul>
+  </div>
+</div>
+                
                 <h2 className="header-2">Background</h2>
                 <div className="pb-4 text-justify">
                     <p >
@@ -49,8 +52,6 @@ function Index(props) {
                         Grin Community Council is gathered every 1st and 3th Tuesday of the month  with a predefined agenda in <a href="https://keybase.io/team/grincoin">Keybase#general channel</a>. Everyone is free to offer agenda topics before the meetings, join the meetings and express their opinions and ideas in a friendly and respectful environment. Previous meetings notes can be found <a href="https://github.com/grincc/agenda/tree/main/notes">here</a>. You can follow next meetings agenda in community council agenda <a href="https://github.com/grincc/agenda/issues">repo</a>.
                     </p>
                 </div>
-
-
 
 
             </div>
