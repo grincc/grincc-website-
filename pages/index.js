@@ -20,7 +20,7 @@ function Index(props) {
       <IconWrapper IconComponent={Icon6} label="trab" />
       <IconWrapper IconComponent={Icon6} label="anonymous" />
       <IconWrapper IconComponent={Icon6} label="wiesche" />
-      <IconWrapper IconComponent={Icon6} label="bruges" />
+      <IconWrapper IconComponent={Icon6} label="aglkm" />
       <IconWrapper IconComponent={Icon6} label="waynegeorge" />
       <IconWrapper IconComponent={Icon6} label="transatoshi" />
       <IconWrapper IconComponent={Icon6} label="yeastplume" />
