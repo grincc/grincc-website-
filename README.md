@@ -8,7 +8,7 @@ Just follow this 3 steps. More info can be found on official [doc](https://nextj
 
 ```npm install```
 ```npm run build```
-```npm fun start```
+```npm run start```
 
 ## Adding new CC funded projects.
 

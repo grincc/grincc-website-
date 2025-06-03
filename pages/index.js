@@ -16,10 +16,14 @@ function Index(props) {
 <div className="py-4">
   <div className="icons-container">
     <ul className="pl-4 pb-4" style={{ margin: '0px', padding: '0px' }}>
-      <IconWrapper IconComponent={Icon3} label="anynomous" />
-      <IconWrapper IconComponent={Icon4} label="mcmmike" />
-      <IconWrapper IconComponent={Icon5} label="future3000" />
-      <IconWrapper IconComponent={Icon6} label="mwgrin_fr" />
+      <IconWrapper IconComponent={Icon6} label="tromp" />
+      <IconWrapper IconComponent={Icon6} label="trab" />
+      <IconWrapper IconComponent={Icon6} label="anonymous" />
+      <IconWrapper IconComponent={Icon6} label="wiesche" />
+      <IconWrapper IconComponent={Icon6} label="bruges" />
+      <IconWrapper IconComponent={Icon6} label="waynegeorge" />
+      <IconWrapper IconComponent={Icon6} label="transatoshi" />
+      <IconWrapper IconComponent={Icon6} label="yeastplume" />
       {/* other list items */}
     </ul>
   </div>
@@ -49,7 +53,7 @@ function Index(props) {
                 <h2 className="header-2">Community Meetings</h2>
                 <div className="pb-4">
                     <p>
-                        Grin Community Council is gathered every 1st and 3rd Tuesday of the month  with a predefined agenda in <a href="https://keybase.io/team/grincoin">Keybase#general channel</a>. Everyone is free to offer agenda topics before the meetings, join the meetings and express their opinions and ideas in a friendly and respectful environment. Previous meetings notes can be found <a href="https://github.com/grincc/agenda/tree/main/notes">here</a>. You can follow next meetings agenda in community council agenda <a href="https://github.com/grincc/agenda/issues">repo</a>.
+                        Grin Community Council is gathered every 1st and 3rd Tuesday of the month at 6:30pm UTC with a predefined agenda in <a href="https://keybase.io/team/grincoin">Keybase#general channel</a>. Everyone is free to offer agenda topics before the meetings, join the meetings and express their opinions and ideas in a friendly and respectful environment. Previous meetings notes can be found <a href="https://github.com/grincc/agenda/tree/main/notes">here</a>. You can follow next meetings agenda in community council agenda <a href="https://github.com/grincc/agenda/issues">repo</a>.
                     </p>
                 </div>
 
