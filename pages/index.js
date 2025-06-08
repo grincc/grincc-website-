@@ -53,7 +53,7 @@ function Index(props) {
                 <h2 className="header-2">Community Meetings</h2>
                 <div className="pb-4">
                     <p>
-                        Grin Community Council is gathered every 1st and 3rd Tuesday of the month at 6:30pm UTC with a predefined agenda in <a href="https://keybase.io/team/grincoin">Keybase#general channel</a>. Everyone is free to offer agenda topics before the meetings, join the meetings and express their opinions and ideas in a friendly and respectful environment. Previous meetings notes can be found <a href="https://github.com/grincc/agenda/tree/main/notes">here</a>. You can follow next meetings agenda in community council agenda <a href="https://github.com/grincc/agenda/issues">repo</a>.
+                        Grin Community Council is gathered every 1st and 3rd Tuesday of the month at 19:30 UTC with a predefined agenda on <a href="https://t.me/Grin_Governance">Telegram</a>. Everyone is free to offer agenda topics before the meetings, join the meetings and express their opinions and ideas in a friendly and respectful environment. Previous meetings notes can be found <a href="https://github.com/grincc/agenda/tree/main/notes">here</a>. You can follow next meetings agenda in community council agenda <a href="https://github.com/grincc/agenda/issues">repo</a>.
                     </p>
                 </div>
 
