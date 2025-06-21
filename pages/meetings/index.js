@@ -473,7 +473,7 @@ function Index(props) {
 
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="header-1">Grin Community Meetings </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Grin Community meetings are held biweekly on the first and third weeks of the month at 6:30pm UTC.
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Grin Community meetings are held biweekly on the first and third weeks of the month at 19:30 UTC on <a href="https://t.me/Grin_Governance">Telegram</a>.
                     Agenda for meetings are publicly open at <a href="https://github.com/grincc/agenda/issues">grincc/agenda</a> repo.
                     </p>
                     <h2 className="mt-4 py-2 px-8 text-sm bg-primary flex mx-auto w-max text-white rounded-md  tracking-widest font-medium title-font mb-1">
